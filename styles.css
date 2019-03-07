@@ -1,36 +1,56 @@
 /*---------- Body ------------------*/
 *{
-  border-top: 1px solid red
   box-sizing: border-box;
 }
 
 body{
-
-}
-
-/*---------- Header ----------------*/
-header{
-
-}
-
-/*---------- Aritcle ---------------*/
-article{
-
-}
-
-.container{
-  border: 1px dashed;
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 50% 50%;
+  font-family: 'Open Sans', sans-serif;
 }
 
+/*---------- Article ---------------*/
+article{
+ background-color: #455A64;
+ color: #ffffff;
+ height: 100vh;
+}
+
+.left-column{
+  margin:50% auto;
+  padding: 30px;
+}
+
+img{
+  width: 50px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 10px 0;
+  max-width: 240px;
+}
+
+input{
+  margin-bottom: 20px;
+}
+
+button{
+  background-color: #FFC107;
+  color: white;
+}
+button:hover{
+  background-color: #FFD773;
+}
 /*---------- Aside -----------------*/
 aside{
-
+  background-color: #CFD8DC;
+  height: 100vh;
 }
 
-/*---------- Footer ----------------*/
-footer{
+/*---------- Card UI ---------------*/
+section{
 
 }
 
