@@ -12,24 +12,25 @@
 <body>
 <article>
   <div class="left-column">
-    <h1>Linked <img src="linked-list-logo.svg"> List</h1>
     <form>
-      <input type="text" name="link-title" placeholder="Website Title">
-      <input type="text" name="link-address" placeholder="Website Address">
-      <button>Enter</button>
+      <h1>Linked <img src="linked-list-logo.svg"> List</h1>
+      <input type="text" name="link-title" placeholder="Website Title" maxlength="20" id="input-title">
+      <input type="text" name="link-address" placeholder="Website Address" id="input-address">
+      <button id="btn-enter">Enter</button>
     </form>
   </div>
 </article>
 <aside>
-  <template>
-    <section>
-      
-    </section>
-  </template>
-</aside>
-
-<aside>
-  
+  <section>
+    <h3 class="output-title">Website Title</h3>
+    <hr>
+    <p class="output-address">Website URL</p>
+    <hr>
+    <div class="flex-btn">
+      <button class="btn-read">Read</button>
+      <button class="btn-delete">Delete</button>
+    </div>
+  </section>
 </aside>
 </body>
 <script type="text/javascript" src="main.js"></script>
