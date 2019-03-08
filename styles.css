@@ -36,22 +36,68 @@ input{
   margin-bottom: 20px;
 }
 
-button{
+#btn-enter{
   background-color: #FFC107;
   color: white;
+  border: none;
 }
-button:hover{
+
+#btn-enter:hover{
   background-color: #FFD773;
 }
+
 /*---------- Aside -----------------*/
 aside{
   background-color: #CFD8DC;
   height: 100vh;
 }
 
-/*---------- Card UI ---------------*/
 section{
+  background-color: white;
+  border: 1px solid #607D8B;
+  padding: 10px;
+  margin: 10px;
+}
 
+h3{
+  color: #455A64;
+}
+
+hr{
+ border:1px solid #CFD8DC;
+}
+
+section p{
+  color: #607D8B;
+  text-decoration: underline;
+  text-decoration-color: #f2f4f4;
+}
+section p:hover{
+  text-decoration-color: #FFC107;
+  font-weight: 800;
+  color: #455A64;
+}
+
+.flex-btn{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-read,
+.btn-delete{
+  color: #455A64;
+  background-color: white;
+  border: none;
+  text-decoration: underline;
+  text-decoration-color: #f2f4f4;
+  padding: 0;
+}
+
+.btn-read:hover,
+.btn-delete:hover{
+
+  text-decoration-color: #FFC107;
+  font-weight: 800;
 }
 
 /*---------- Media Queries ---------*/
